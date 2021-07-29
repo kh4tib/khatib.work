@@ -73,6 +73,10 @@ $rotation-value in (eve, $eve-theme-color, 24rem, 48deg),
             }
         }
 
+        .body__link {
+            color: $color-value;
+        }
+
         .projects {
             .humanly__card {
                 // border: 2px solid $color-value;

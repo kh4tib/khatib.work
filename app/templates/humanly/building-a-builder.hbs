@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Primary Meta Tags -->
+    <title>building a builder // humanly</title>
+    <meta name="title" content="building a builder // humanly">
+    <meta name="description"
+        content="It all boiled down to creating a playful experience that encourages the user to experiment while building their audience.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="building a builder // humanly">
+    <meta property="og:description"
+        content="It all boiled down to creating a playful experience that encourages the user to experiment while building their audience.">
+    <meta property="og:image" content="https://media.giphy.com/media/9UqRcQHzBou6A/giphy.gif">
+    <meta property="og:url" content="http://khatib.work/humanly/building-a-builder.html">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:description"
+        content="It all boiled down to creating a playful experience that encourages the user to experiment while building their audience.">
+    <meta property="twitter:title" content="building a builder // humanly">
+    <meta property="twitter:image" content="https://media.giphy.com/media/9UqRcQHzBou6A/giphy.gif">
+    <meta property="twitter:url" content="http://khatib.work/humanly/building-a-builder.html">
+
+    {{> meta}}
+
+    <link rel="stylesheet" href="../dist/css/style.min.css">
+</head>
+
+<body>
+    <section class="section__one --project-theme-humanly">
+        <div class="one__container">
+            {{!-- Top Actions --}}
+            <div class="project__section --margin-top-none --position-sticky --index-top">
+                <div class="top__options">
+                    {{> back-button__post}}
+                    {{> toggle-switch}}
+                </div>
+            </div>
+            {{!-- Header --}}
+            <div class="project__section">
+                <h4>building a builder<h4>
+                        <h1>
+                            It all boiled down to creating a playful experience that encourages the user to experiment
+                            while building their audience.</h1>
+            </div>
+            <div class="project__section post__image">
+                <img src="https://media.giphy.com/media/9UqRcQHzBou6A/giphy.gif">
+            </div>
+            {{!-- Body --}}
+            <div class="project__section --margin-top-none">
+
+                <p>
+                    This article is a complementary piece for the <a class="body__link" target="_blank"
+                        href="../audiences.html">Audiences Case Study</a>. I will focus on creating the
+                    Audience Builder and the thoughts behind the decisions made.
+                </p>
+
+                <p class="--margin-top-l">
+                    Before dwelling on the bits and pieces of the Builder as a product component, let me set the stage
+                    by first giving some context of what does Leanplum do, and what is <a class="body__link"
+                        target="_blank" href="../audiences.html">Audiences</a>.
+                <div class="list__item">
+                    <div class="list__cue"></div>
+                    <p> <span class=" list__title">Leanplum</span> is a leading multi-channel customer engagement
+                        platform that helps forward-looking brands meet their customers' real-time needs.</p>
+                </div>
+                <div class="list__item">
+                    <div class="list__cue"></div>
+                    <p> <span class=" list__title">Audiences</span> is the audience management solution in Leanplum
+                        that helps marketing teams build, manage, and better understand their diverse Audience and
+                        leverage this data in their marketing strategy.</p>
+                </div>
+                <div class="list__item">
+                    <div class="list__cue"></div>
+                    <p> <span class=" list__title">Audience Builder</span> is a query builder where you can select user
+                        filters and behaviors and chain them with logic operators to define your Audience. For example,
+                        I want to explore users who are from Italy, speak English, and are interested in
+                        Soccer.</p>
+                </div>
+                <p>
+                    Now, let's dive in.</p>
+                </p>
+                <h2 class="--margin-top-l">Introduction</h2>
+                <p class="margin--top--l">
+                    The Builder was the first product component that we tackled in the Audiences vision. Since an
+                    audience is a set of properties and behaviors, every audience will start from the Builder.
+                    <br><br>
+                    When we kicked off and started the product discovery, the functionality was there, yet the usability
+                    was far from there. The functionality was impressively flexible, giving our users endless
+                    possibilities of what they can build, yet usability pushed the user back from achieving this. We
+                    understood that to improve the experience, we need to focus on the
+                    following main pillars — clarity, flexibility, and forgiveness.
+                </p>
+
+                <h2 class="--margin-top-l">Clartiy — I wanna see it in technicolor</h2>
+                <p class="margin--top--l">
+                    When we speak about clarity, we are mainly talking about providing confidence to the user. This
+                    confidence is needed in the user journey of building an audience, also for viewing the audience.
+                    <br><br>
+                    In the first place, I want to understand all the properties and behaviors available. Hence, I make
+                    sure that I'm leveraging this in my audiences. We followed a megamenu pattern to give an on-a-glance
+                    view of all the options available.
+                    <br><br>
+                    Also, we wanted to clarify how the audience is combined with logic operators and made them
+                    differentiate at a glance. By scanning the audience, the user can understand which properties are
+                    combined with "and/or" operators.
+                    <br><br>
+                    Finally, while building an audience, I want to understand the size of this audience. Here is where
+                    the Insights section comes in handy. This is a complementary product component that supports the
+                    Builder, where we show the size of that audience and several metrics that would guide the user.
+                </p>
+                <h2 class="--margin-top-l">Flexibility — I wanna play around</h2>
+                <p class="margin--top--l">
+                    Till now, we achieved clarity and provided the user with the confidence they needed. But how we
+                    encourage them to play around with it. How do we make sure that building an audience is a breeze?
+                    How can we provide a flow where they can experiment while doing it? We added the following
+                    functionalities to ensure precisely this.
+                    <br><br>
+                <div class="list__item">
+                    <div class="list__cue"></div>
+                    <p> <span class=" list__title">Drag and Drop</span> — a drag and drop appropriately done is always a
+                        fun experience. We wanted to make sure that this would ease changing the property's position and
+                        eliminate the need to delete and re-add this property in the desired position.
+                    </p>
+                </div>
+
+                <div class="list__item">
+                    <div class="list__cue"></div>
+                    <p> <span class=" list__title"> Merge Sections</span> — the ability to merge sections separated by
+                        an "and" operator and have the
+                        properties combined with an "or" operator.
+                    </p>
+                </div>
+                <div class="list__item">
+                    <div class="list__cue"></div>
+                    <p> <span class=" list__title">Split Rule</span> — Kinda the opposite of the previous action. The
+                        ability to split a property from
+                        one section into a new section.
+                    </p>
+                </div>
+            </div>
+            <h2 class="--margin-top-l">Forgiveness — I'm just a human</h2>
+            <p class="margin--top--l">
+                The previous functionalities achieved this playfulness sense to the experience. Yet, on the other hand,
+                it made it more error-prone, which by default will add a mental barrier for the user to leverage and use
+                these functionalities.
+                <br><br>
+                Don't get me wrong. We want the user to experiment with the audience's structure and break the structure
+                if needed as part of the experiment.
+                <br><br>
+                To provide the user with the courage to play around with an audience and experiment with different
+                structures, we had to makes the actions reversible. By doing this, we will directly remove this mental
+                barrier.
+                <br><br>
+                Adding undo, redo, and a reset functionalities to the mix is what we needed to ensure that the user can
+                always reverse an undesirable action.
+
+                <br><br>
+                <iframe src="https://open.spotify.com/embed/track/58zsLZPvfflaiIbNWoA22O?theme=0" width="100%"
+                    height="80" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </p>
+            <h2 class="--margin-top-l">Summary</h2>
+            <p class="margin--top--l">
+                Looking in retrospect, all these functionalities mentioned above seem obvious and natural, yet we didn't
+                get it right right away. This is the fruit of endless iterations, feedback loops, and above all, a tight
+                collaboration of a product team (PD,PM,FE,BE,QA) whose main goal was to achieve an excellent user
+                experience.
+                <br><br>
+                That said, we are constantly learning and searching for opportunities on how to improve the experience
+                further. There's always a room for improvement.
+            </p>
+
+
+            {{> contact}}
+        </div>
+
+        {{> one__elements}}
+    </section>
+    <script src="../dist/js/toggle-modes.js"></script>
+    <script src="../dist/js/main.min.js"></script>
+</body>
+
+</html>
