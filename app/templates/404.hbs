@@ -25,6 +25,7 @@
 
     {{> meta}}
     <link rel="stylesheet" href="dist/css/style.min.css">
+    
 </head>
 
 <body style="height: 100%;">
@@ -34,7 +35,28 @@
     <p class="description__not-found">You found our 404 page.</p>
     <a href="/index.html"> go to homepage</a>
 </section>
-<script src="http://khatib.work/dist/js/random-images.js"></script>
+<script>
+    var randomImageArray = [
+    "https://media.giphy.com/media/EimNpKJpihLY4/giphy.gif", 
+    "https://media.giphy.com/media/Jalikml2XiUgw/giphy.gif",
+    "https://media.giphy.com/media/3oGRFvUEbJdLWlawLu/giphy.gif",
+    "https://media.giphy.com/media/NQL7Wuo2JSQSY/giphy.gif",
+    "https://media.giphy.com/media/jO161HOYUPKEM/giphy.gif",
+    "https://media.giphy.com/media/hEc4k5pN17GZq/giphy.gif",
+];
+
+function getRandomImage(imgAr) {
+    var num = Math.floor( Math.random() * imgAr.length );
+    var img = imgAr[ num ];
+    var imgStr = 'url('+ img + ')';
+
+    var sectionFourOFour = document.querySelector(".section__not-found");
+    sectionFourOFour.style.backgroundImage = imgStr;
+}
+
+getRandomImage(randomImageArray);
+</script>
+{{!-- <script src="http://khatib.work/dist/js/random-images.js"></script> --}}
 <script src="http://khatib.work/dist/js/main.min.js"></script>
 </body>
 </html>
