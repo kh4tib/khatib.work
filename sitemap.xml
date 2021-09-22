@@ -1,37 +1,40 @@
+<!-- Head -->
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<!-- Main -->
 <url>
   <loc>http://khatib.work/</loc>
-  <lastmod>2021-07-21T22:06:31+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>http://khatib.work/about.html</loc>
-  <lastmod>2021-07-21T22:06:31+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+
+<!-- Projects -->
+<url>
+  <loc>http://khatib.work/projects.html</loc>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>http://khatib.work/audiences.html</loc>
-  <lastmod>2021-07-21T22:06:31+00:00</lastmod>
-  <priority>1.00</priority>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://khatib.work/eve.html</loc>
-  <lastmod>2018-10-21T22:06:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://khatib.work/flow.html</loc>
-  <lastmod>2018-10-21T22:06:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://khatib.work/sante.html</loc>
-  <lastmod>2018-10-21T22:06:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -45,33 +48,29 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://khatib.work/readings.html</loc>
-  <lastmod>2019-02-10T22:06:31+00:00</lastmod>
-  <priority>0.80</priority>
+
+<!-- Humanly -->
+  <loc>http://khatib.work/humanly.html</loc>
+  <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://khatib.work/humanly.html</loc>
-  <lastmod>2018-10-21T22:06:31+00:00</lastmod>
+  <loc>http://khatib.work/humanly/building-a-builder.html</loc>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://khatib.work/humanly/why-starting-this.html</loc>
-  <lastmod>2018-10-21T22:06:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://khatib.work/humanly/how-eve-was-born.html</loc>
-  <lastmod>2018-10-21T22:06:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://khatib.work/humanly/twenty18-retrospective.html</loc>
-  <lastmod>2019-02-10T22:06:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://khatib.work/humanly/love-is-blind.html</loc>
-  <lastmod>2019-10-28T22:06:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
