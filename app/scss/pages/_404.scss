@@ -47,6 +47,12 @@
     h1 {
         margin-bottom: 0 !important;
     }
+
+    @media (max-width: 768px) {
+
+        width: 80%;
+    
+    }
 }
 
 .not-found__actions {
@@ -56,4 +62,15 @@
     .action__button:hover {
         background-color: $secondary-color;
     }
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        margin-top: 16px !important;
+        
+        .action__button {
+            margin: 0 0 8px 0;
+        }
+    
+    }
 }
+
