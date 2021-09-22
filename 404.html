@@ -50,10 +50,15 @@
 
 <body style="height: 100%;">
 <section class="section__not-found">
-    <h4>page not found</h4>
-    <h1>Congratulations!</h1>
-    <p class="description__not-found">You found our 404 page.</p>
-    <a href="/index.html"> go to homepage</a>
+        <div class="not-found__content">
+        <h4>page not found</h4>
+        <h1>We face many decisions in our day-to-day. Here's another one. I tried to make it as simple as possible. Good Luck!</h1>
+        <p class="description__not-found"></p>
+        <div class="introduction__actions not-found__actions">
+            <a class="action__button" onClick="window.location.href=window.location.href"> shuffle gifs</a>
+            <a class="action__button" href="/index.html"><div>go to homepage</div></a>
+        </div>
+    </div>
 </section>
 <script>
     var randomImageArray = [
@@ -63,6 +68,9 @@
     "https://media.giphy.com/media/NQL7Wuo2JSQSY/giphy.gif",
     "https://media.giphy.com/media/jO161HOYUPKEM/giphy.gif",
     "https://media.giphy.com/media/hEc4k5pN17GZq/giphy.gif",
+    "https://media.giphy.com/media/o6gEzCUrEHIas/giphy.gif?cid=ecf05e470fsaapn7pxcmf9ybopzxdoaefuv60zrbrpy1fp09&rid=giphy.gif&ct=g",
+    "https://media.giphy.com/media/107SOzgMhW5jKU/giphy.gif?cid=790b7611f9141ac78408ce4762834530b9c74d29792006b1&rid=giphy.gif&ct=g",
+    "https://media.giphy.com/media/vvbVmC7mKsvOhlmkSz/giphy-downsized-large.gif?cid=ecf05e471274uhmfqsyr5sukfpj5gq14hip9oodaoi0m8xcz&rid=giphy-downsized-large.gif&ct=g",
 ];
 
 function getRandomImage(imgAr) {
