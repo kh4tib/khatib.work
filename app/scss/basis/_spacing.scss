@@ -1,9 +1,34 @@
-.--margin-top-l {
-    margin-top: 4rem !important;
+// Top
+.--margin-top-none {
+    margin-top: 0 !important;
+}
+
+.--margin-top-xxs {
+    margin-top: 1rem !important;
+}
+
+.--margin-top-xs {
+    margin-top: 1.5rem !important;
 }
 
 .--margin-top-s {
     margin-top: 2rem !important;
+}
+
+.--margin-top-l {
+    margin-top: 4rem !important;
+}
+
+
+
+
+
+
+
+// Bottom
+
+.--margin-bottom-none {
+    margin-bottom: 0 !important;
 }
 
 .--margin-bottom-xxs {
@@ -18,13 +43,13 @@
     margin-bottom: 2rem !important;
 }
 
-.--margin-top-none {
-    margin-top: 0 !important;
+.--margin-bottom-l {
+    margin-bottom: 4rem !important;
 }
 
-.--margin-bottom-none {
-    margin-bottom: 0 !important;
-}
+
+
+// Others
 .--position-sticky {
     position: sticky !important;
     top: 0;
