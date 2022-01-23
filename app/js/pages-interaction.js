@@ -1,4 +1,4 @@
-let aboutTarget = document.getElementsByClassName('js-about')[0];
+// let aboutTarget = document.getElementsByClassName('js-about')[0];
 let humanlyTarget = document.getElementsByClassName('js-humanly')[0];
 let audiencesTarget = document.getElementsByClassName('js-audiences')[0];
 let eveTarget = document.getElementsByClassName('js-eve')[0];
@@ -18,7 +18,7 @@ const addTheme = (target, theme) => {
     }); 
 };
 
-addTheme(aboutTarget, '--project-theme-about');
+// addTheme(aboutTarget, '--project-theme-about');
 addTheme(audiencesTarget, '--project-theme-audiences');
 addTheme(eveTarget, '--project-theme-eve');
 addTheme(flowTarget, '--project-theme-flow');

@@ -6,13 +6,13 @@
     <title>Mo Khatib - Product Designer</title>
     <meta name="title" content="Mo Khatib - Product Designer">
     <meta name="description"
-    content="I'm a product designer currently building tools that helps forward-looking brands meet their customers' real-time needs.">
+        content="I'm a product designer currently building tools that helps forward-looking brands meet their customers' real-time needs.">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:title" content="Mo Khatib - Product Designer">
     <meta property="og:description"
-    content="I'm a product designer currently building tools that helps forward-looking brands meet their customers' real-time needs.">
+        content="I'm a product designer currently building tools that helps forward-looking brands meet their customers' real-time needs.">
     <meta property="og:image" content="http://khatib.work/app/images/pages/covers/index_1024x512.png">
     <meta property="og:url" content="http://khatib.work/index.html">
 
@@ -20,7 +20,7 @@
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:title" content="Mo Khatib - Product Designer">
     <meta property="twitter:description"
-    content="I'm a product designer currently building tools that helps forward-looking brands meet their customers' real-time needs.">
+        content="I'm a product designer currently building tools that helps forward-looking brands meet their customers' real-time needs.">
     <meta property="twitter:image" content="http://khatib.work/app/images/pages/covers/index_1024x512.png">
     <meta property="twitter:url" content="http://khatib.work/index.html">
     {{> meta}}
@@ -37,56 +37,107 @@
                 </div>
             </div>
 
-            {{!-- Introduction --}}
-            <div class="project__section --margin-top-none">
-                <h1>
-                    <br>
-                    i'm mo — a product designer currently building the audience and data management surfaces at
-                    Leanplum.
-                </h1>
-
-                <div class="introduction__actions">
-
-                    <a class="action__button js-about" href="/about.html" alt="link to about page">
-                        <div>about me</div>
-                    </a>
-
-                </div>
-            </div>
 
             <div class="project__section">
+                {{!-- Introduction --}}
+                <div class="--margin-bottom-l">
+                    <h1>
+                        i'm mo — a product designer currently building the <a class="header-link"
+                            href="/audiences.html">audience</a> and data management surfaces at
+                        Leanplum.
+                    </h1>
+                    <div class="section__bio --margin-top-s">
+                        {{!-- <div class="bio__image">
+                            <img src="http://khatib.work/app/images/pages/about/image-mo.jpg" alt="">
+                        </div> --}}
+                        <div class="/bio__description">
+
+                            <p> Before Leanplum, I designed data reporting experiences at Falcon.io and <a
+                                    class="body__link" href="../flow.html">productivity tools in
+                                    Kanbanize</a>. In addition, I'm the co-creator of <a class="body__link"
+                                    href="../eve.html">Eve—an open-source design system</a>.</p>
+                                    
+                            <p> My experience ranges at the intersection of product design and
+                                design systems.
+                                Through these mediums, I strive to solve new problems and push
+                                technology
+                                forward.</p>
+
+                            {{!-- <p> My experience ranges at the intersection of product design and
+                                design systems.
+                                Through these mediums, I strive to solve new problems and push
+                                technology
+                                forward.</p>
+                            <p> I believe that experience and continuous learning is the key to
+                                building
+                                next-generation technologies. With that in mind, I am open to
+                                learn, share, and
+                                adopt new techniques and better solutions to improve the quality
+                                of the product.
+                            </p>
+
+                            <p>
+                                Staying sincerely in touch with the user's voice and
+                                understanding their
+                                particular needs and unique pain points are what I put in the
+                                first place.</p>
+                            </p> --}}
+
+                        </div>
+
+
+                    </div>
+
+                    {{!-- <div class="introduction__actions">
+
+                        <a class="action__button js-about" href="/about.html" alt="link to about page">
+                            <div>about me</div>
+                        </a>
+
+                    </div> --}}
+                </div>
+
                 {{!-- Projects --}}
-                <div class="projects">
+                <div class="--margin-bottom-l">
                     <div class="projects__header">
                         <h4>projects</h4>
                         <div></div>
-                        <a href="/projects.html">see all</a>
+                        {{!-- <a href="/projects.html">see all</a> --}}
                     </div>
 
                     <a href="/audiences.html" class="humanly__card js-audiences">
                         <h1>Audiences</h1>
                         <h4 class="post__date">Product Design</h4>
-                        <p>The audience management solution in leanplum that helps marketing teams build, manage, and better understand their diverse audience and leverage this data in their marketing strategy.
+                        <p>The audience management solution in leanplum that helps marketing teams build, manage, and
+                            better understand their diverse audience and leverage this data in their marketing strategy.
                         </p>
+                        <img class="home__image audiences__image --margin-top-xs"
+                            src="../app/images/pages/projects/audiences-image-1.png" alt="">
                     </a>
 
                     <a href="/flow.html" class="humanly__card js-flow">
-                        <h1>Flow-e</h1>
+                        <h1>Flow-e </h1>
                         <h4 class="post__date">Product Design</h4>
-                        <p>An elegant kanban-like workflow that's combined with the ideas behind inbox zero inside your gmail and outlook. flow-e transforms your inbox into a central todo app.</p>
+                        <p>An elegant kanban-like workflow that's combined with the ideas behind inbox zero inside your
+                            gmail and outlook. flow-e transforms your inbox into a central todo app.</p>
+                        <img class="home__image audiences__image --margin-top-xs"
+                            src="../app/images/pages/projects/flow-e-image-1.png" alt="">
                     </a>
-                    
+
                     <a href="/eve.html" class="humanly__card js-eve">
                         <h1>Eve</h1>
                         <h4 class="post__date">Design System</h4>
-                        <p>A design system that provides essential user interface elements, flexbox-based responsive interfaces, and pure CSS components.
+                        <p>A design system that provides essential user interface elements, flexbox-based responsive
+                            interfaces, and pure CSS components.
                         </p>
+                        <img class="home__image audiences__image --margin-top-xs"
+                            src="../app/images/pages/projects/eve-image-1.png" alt="">
                     </a>
 
                 </div>
 
                 {{!-- Humanly --}}
-                <div class="--margin-top-l">
+                <div class="--margin-bottom-l">
                     <div class="projects__header">
                         <h4>writings</h4>
                         <div></div>
@@ -96,8 +147,51 @@
                     <a class="humanly__card js-humanly" href="/humanly/building-a-builder.html">
                         <h1>building a builder</h1>
                         <h4 class="post__date">July 28, 2021</h4>
-                        <p>In this post, I revisit and deep-dive into the decisions made while building the Audience Builder — a primary product component of Audiences.</p>
+                        <p>In this post, I revisit and deep-dive into the decisions made while building the Audience
+                            Builder — a primary product component of Audiences.</p>
                     </a>
+                </div>
+
+
+                {{!-- Work --}}
+                <div>
+                    <div class="projects__header ">
+                        <h4>work</h4>
+                        <div></div>
+                    </div>
+
+                    <div class="list__item --margin-top-s">
+                        <div class="list__cue"></div>
+                        <p>
+                            <a class="body__link" target="_blank" href="https://leanplum.com">Leanplum // Product
+                                Designer (2019—Present)</a> 
+                            <br>Leading
+                            the product design of the Access domain where we improve our customers' exploration,
+                            understanding, and access to data.
+                        </p>
+
+                    </div>
+
+                    <div class="list__item">
+                        <div class="list__cue"></div>
+                        <p>
+                            <a class="body__link" target="_blank" href="https://falcon.io">Falcon.io // Product
+                                Designer (2018—2019) </a>
+                            <br>Designed experiences for the
+                            Measure product where customers can track the performance of all
+                            their social media efforts.
+                        </p>
+                    </div>
+                    <div class="list__item">
+                        <div class="list__cue"></div>
+                        <p>
+                            <a class="body__link" target="_blank" href="https://kanbanize.com">Kanbanize // Product
+                                Designer (2015—2018)</a><br>Designed expreiences for the core product where we help
+                            teams visualize their project plan in dedicated
+                            kanban boards.
+
+                        </p>
+                    </div>
                 </div>
             </div>
             {{> contact}}

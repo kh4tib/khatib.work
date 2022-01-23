@@ -218,6 +218,17 @@ iframe {
     box-shadow: 4px 8px 24px -4px rgba(0, 0, 0, 0.4);
 }
 
+.header-link {
+    font-size: inherit;
+    display: inline;
+    line-height: inherit;
+    color: $audiences-theme-color;
+
+    &:hover {
+        color: $primary-color;
+    }
+}
+
 .project__back-btn {
     position: relative;
     height: 2rem;
@@ -253,11 +264,12 @@ iframe {
     .breadcrumb__emoji {
         font-size: 20px;
     }
+
     .breadcrumb__seperator {
-    width: 2rem;
-    margin: 0 1rem;
-    height: 2px;
-    background-color: $secondary-color;
+        width: 2rem;
+        margin: 0 1rem;
+        height: 2px;
+        background-color: $secondary-color;
     }
 }
 
@@ -317,7 +329,17 @@ iframe {
         border-right: none;
     }
 }
+// List Styles
+.list__cue {
+    background: rgba($primary-color, $alpha: 0.12);
+    svg {
+        fill: $primary-color;
+    }
+    @extend 
+    %transition-3
+}
 
+//Media
 @media only screen and (max-width:768px) {
 
     .section__one {
@@ -332,4 +354,11 @@ iframe {
         // filter: none;
         padding: 2rem;
     }
+
+    .home__image {
+        visibility: hidden;
+        height: 0;
+        width: 0;
+    }
 }
+

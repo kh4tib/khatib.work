@@ -224,4 +224,12 @@ body.light-mode {
             }
         }
     }
+
+    .header-link, .body__link {
+        color: $audiences-theme-color;
+    
+        &:hover {
+            color: $primary-color;
+        }
+    }
 }
