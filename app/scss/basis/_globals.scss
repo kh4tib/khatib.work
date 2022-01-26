@@ -329,14 +329,16 @@ iframe {
         border-right: none;
     }
 }
+
 // List Styles
 .list__cue {
     background: rgba($primary-color, $alpha: 0.12);
+
     svg {
         fill: $primary-color;
     }
-    @extend 
-    %transition-3
+
+    @extend %transition-3
 }
 
 //Media
@@ -356,10 +358,7 @@ iframe {
     }
 
     .home__image {
-        visibility: hidden;
-        height: 0;
-        width: 0;
+        display: none;
         margin: 0 !important;
     }
 }
-
