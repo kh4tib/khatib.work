@@ -97,6 +97,13 @@ iframe {
     @extend %transition-3;
 }
 
+video {
+    border-radius: 1.5rem;
+    box-shadow: 4px 16px 48px -4px rgba($color: #000000, $alpha: 0.8);
+    @extend %transition-3;
+    margin: 2rem 0;
+}
+
 .img__link {
     &:hover {
         box-shadow: 2px 4px 8px -2px rgba($color: #000000, $alpha: 0.8);

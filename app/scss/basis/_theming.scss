@@ -50,7 +50,7 @@ $rotation-value in (eve, $eve-theme-color, 24rem, 48deg),
 
             .breadcrumb__seperator {
                 background-color: $color-value;
-                }
+            }
         }
 
         a:hover {
@@ -95,6 +95,10 @@ $rotation-value in (eve, $eve-theme-color, 24rem, 48deg),
 
                 }
             }
+        }
+
+        .body__quote__description {
+            color: $color-value;
         }
 
         .humanly__badge {
@@ -225,9 +229,10 @@ body.light-mode {
         }
     }
 
-    .header-link, .body__link {
+    .header-link,
+    .body__link {
         color: $audiences-theme-color;
-    
+
         &:hover {
             color: $primary-color;
         }

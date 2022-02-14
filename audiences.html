@@ -63,76 +63,240 @@
                     </div>                </div>
             </div>
             <div class="project__section">
-                <h4>audiences // product </h4>
+                <h4>audiences</h4>
                 <h1>Audiences is the audience management solution in <span class="color__primary">Leanplum</span> that
                     helps marketing teams build, manage, and better understand their diverse audience and leverage this
                     data
                     in their marketing strategy.</h1>
             </div>
+            <div class="project__section">
+                <h2>Overview</h2>
+                <p>Marketers think in the context of Audiences, yet Leanplum wasn’t offering a solution to provide such
+                    capabilities.</p>
+
+                <p>Our main objective was to build an industry-leading Audience Management solution that empowers
+                    marketers to convert their user data into an audience to source, analyze, explore and engage.</p>
+
+                <p>I led Audience's product design, working alongside a cross-functional team from product management
+                    and engineering. In addition, I participated in the product strategy and vision.</p>
+            </div>
+            <div class="project__section">
+                <h2>Research</h2>
+                <h4>Product Analysis</h4>
+                <p>Starting with understanding the current state of the product and what Leanplum was offering - we
+                    noticed that the emphasis was more on users rather than audiences. Leanplum offered a Users page
+                    mainly to find a specific user or create an ad-hoc audience and view a sample list of users. This
+                    option encouraged an ad-hoc setup rather than a more holistic option that can be explored later and
+                    reused in multiple engagements. The option to save an audience was buried inside a dropdown that was
+                    impossible to discover, leading our users to create a new audience every time they wanted to explore
+                    a specific audience and repeat the process when they created an engagement.</p>
+                <img class="audiences__image --margin-top-xs --margin-bottom-l "
+                    src="../app/images/pages/projects/audiences-e/olds-users.png" alt="">
+                <br>
+                <h4>User Pain Points</h4>
+                <p>In addition to the repetitive process mentioned above, Leanplum didn’t offer the right tools and the
+                    needed insights to guide marketers on what type of engagements they could send a specific audience.
+                    The only quantitative data they had was the size of the audience.</p>
+                <br>
+                <h4>User Interviews</h4>
+                <p>When we talked to our users (mainly Marketers including Marketing Managers and CRMs who are the
+                    owners of the Marketing Strategy and defining audiences) about the current flow and why they're not
+                    leveraging from saving audiences and reusing them, most of them didn't know that the saving option
+                    existed. Also, most of them weren't confident to use saved audience due to the lack of management
+                    options over these audience and found that the whole process to be error-prone and not designed to be
+                    used by multiple team members. In addition, there was no information about these audiences and
+                    whether they are used in active engagements, making it even harder to manage.</p>
+                <br>
+
+                <h4>Competitve Analysis</h4>
+                <p>Some of our competitors had some audiences managing tools, yet their solutions had many gaps where we
+                    could have a competitive advantage.</p>
+                <br>
+                <h4>Analysts Reports</h4>
+                <p>Analysts such as Forrester and Gartner validated our hypothesis that marketers think in the context
+                    of Audiences, and they want to be empowered in the way they can define them.</p>
+                <div class="body__quote">
+                    <div class="body__quote__description">
+                        Marketers have ownership of their audience definition.
+                    </div>
+                    <h4>Gartner</h4>
+                </div>
+            </div>
             <div class="project__section ">
-                <h2>What is Leanplum?</h2>
-                <p>Leanplum is a leading multi-channel customer engagement platform that helps forward-looking brands
-                    meet their customers' real-time needs.</p>
+                <h2>Insights</h2>
+                <p>It was clear that we needed to move away from the concept of Users and go a level higher and have
+                    Audiences as a first-citizen in the product. Viewing users of a specific audience will be part of
+                    the Audiences experience, where our users can take a deep dive, QA a specific audience, and view a
+                    sample list of users.</p>
+                <p>We had to offer a state-of-the-art managing solutions for our users to ensure they have the power
+                    over their saved audiences and improve the collaboration between different team members. Also,
+                    offering suitable metadata to help our users when editing these audiences and make sure we add the
+                    necessary guardrails to eliminate any chance of destructive actions (deleting an audience used in an
+                    active engagement).</p>
+                <p>We had to offer meaningful insights on top of audiences, so our users are confident that they are
+                    targeting the precise number of audiences. In addition, help them make an informative decision on
+                    what type of campaigns they needed to have for a specific audience.</p>
+            </div>
+            <div class="project__section">
+                <h2>Design Approach</h2>
+                <h4>Centralization</h4>
+                <p>We wanted to have Audiences as a first-citizen in the UI and ensure a centralized space for all saved
+                    audiences. However, we had to be mindful in implementing this, considering that we will make the
+                    Users page which our users got used to a one-step longer in the user journey.
+                </p>
+                <br>
+                <h4>Productivity</h4>
+                <p>Boost collaboration between the entire marketing team and make sure these audiences are available
+                    at a fingertip to be explored, edited, and directly engaged.</p>
+                <br>
+                <h4>Consistency</h4>
+                <p>Ensure a consistent audience-building experience across the product so our users can leverage all
+                    the enhancements and the functionalities we are adding.</p>
+                <br>
+                <h4>Meanigful Insights</h4>
+                <p>Provide audience insights that can boost our user's confidence when creating and engaging an
+                    audience.</p>
+                <br>
+                <h4>Flexibility and Forgiveness</h4>
+                <p>Provide a space to explore and experiment with audience building where the UI is forgiving, and
+                    any mistake can be reversed.</p>
+            </div>
+                        <div class="project__section">
+                <h2>Feedback and Iterations</h2>
+                <h4>User Interviews</h4>
+                <p>Before writing a line of code, we went back to our users. We started validating the solution we
+                    created with them to understand how to improve their workflow and experience. We ensured that we had
+                    the main journey points and that we were not making any breaking changes to what they've been doing
+                    until now.</p>
+                <br>
+                <h4>Design Critiques</h4>
+                <p>We had almost weekly check-ins with the team and shared with them what we have as ideas and
+                    prototypes and making sure we're all on the same page. We aligned on whether what we have is
+                    feasible and can be implemented with expected time manners. </p>
+                <p>In these sessions, we had feedback and ideas on improving the solution from an implementation
+                    perspective. Also, we got ideas for more features and functionalities from stakeholders such as CSM
+                    and Support, who have visibility on repetitive questions coming from our users.</p>
+                <br>
+                <h4>Beta Program</h4>
+                <p>We first rolled out the feature to various users, which we knew they needed. Also, they were willing
+                    to try new features. After rolling it to them, we started having continuous interviews to understand
+                    better what worked and what didn't and how we could improve and iterated accordingly.</p>
+                <p>The main push-back that we realized and noticed as a pattern was around actions that were easier to
+                    find in the prior experience, mainly finding a specific user. We added several iterations until we
+                    achieved that it's more discoverable.</p>
+                <p>The primary win was seeing our users leveraging Audiences in their marketing strategy. Having the
+                    audience in a dedicated space gave them more flexibility to explore and experiment before creating a
+                    campaign.</p>
+                <br>
+                <h4>FullStory Sessions</h4>
+                <p>We were always viewing how our users were using the product and understanding their pain points and
+                    moments of frustrations or joy to ensure that we were offering the best user experience and moving
+                    in the right direction.</p>
+            </div>
+            <div class="project__section">
+                <h2>Design</h2>
+                <h4>Audience Dashboard</h4>
+                <p>We started by creating a new space for showing all audiences created and saved - this offered our
+                    users an easier way to discover these audiences and improved the collaboration between team members.
+                    Also, we added metadata for these saved audiences, including when this audience was created and by
+                    who. We offered usage metrics that ensure how and where this audience is being used and engaged in
+                    real-time.</p>
+                <p>In addition to the saved audience list, the dashboard offered insights for the whole user base by
+                    providing metrics that show the health of the user base, including the size and the channel
+                    breakdown. We used this product component at different levels across the product. The user can take
+                    a deep dive and QA each metric by viewing a sample of users for each metric.</p>
+                <p>The main action in the dashboard was creating a new audience and finding a specific user. Finding a
+                    particular user is one of the most used actions on the previous Users page. We wanted to make sure
+                    that we are still offering it one level deeper to encourage our users to think more about audiences
+                    and have a holistic mindset.</p>
+                <video width="100%" height="auto" controls loop autoplay>
+                    <source src="../app/images/pages/projects/audiences-e/dashboard-mp.mp4" type="video/mp4">
+                </video>
+                <br>
+                <h4>Audience Details</h4>
+                <p>The place for creating and exploring audiences. The main product component here is the Audience
+                    Builder - a marketer-friendly query builder that shows the definition of an audience (such as users
+                    in Germany and speaks German.)</p>
+
+                <p>Also, Audience Insights is the same product component we mentioned in the Audience Dashboard.
+                    However, it's used on an audience level rather than the whole user base. The same functionalities
+                    are available here, and the users can take deep dive into a specific metric and view a sample of
+                    users. The primary purpose of these metrics is to ensure visibility for the audience's health and
+                    guide the marketer to take informative decisions in their marketing strategy (for example, if an
+                    audience has 0 opt-in for push yet 100% for email, it will make sense to engage with an email rather
+                    than a push.)
+                </p>
+                <video width="100%" height="auto" controls loop autoplay>
+                    <source src="../app/images/pages/projects/audiences-e/details2_mp.mp4" type="video/mp4">
+                </video>
+
+                <p>Also, we added an Engagement section for saved audiences that shows all the active engagement in
+                    real-time to ensure that the marketer is not over or under-engaging a specific audience.</p>
+                <br>
+                <h4>Users in Audience</h4>
+                <p>A complementary page whose primary purpose is to help our users view a sample of the audience for
+                    QA'ing purposes and ensure confidence that the users available in this audience are the right users.
+                </p>
+                <p>The user profile shows primary information on the header and a tab view switch for the following
+                    information:</p>
+                <div class="list__item">
+                    <div class="list__cue"></div>
+                    <p>The devices associated with a user.</p>
+                </div>
+                <div class="list__item">
+                    <div class="list__cue"></div>
+                    <p>The attributes of a user.</p>
+                </div>
+                <div class="list__item">
+                    <div class="list__cue"></div>
+                    <p>A timeline view to illustrate the steps and events that a user took inside the app and the
+                        engagements they took part of.</p>
+                </div>
+                <div class="list__item">
+                    <div class="list__cue"></div>
+                    <p>Preferences and settings of their channels.</p>
+                </div>
+
+                <video width="100%" height="auto" controls loop autoplay>
+                    <source src="../app/images/pages/projects/audiences-e/profile2_mp.mp4" type="video/mp4">
+                </video>
+                <br>
+                <h4>Select Audience component</h4>
+                <p>We added a complementary product component in Campaigns - our central engagement platform and offered
+                    our users an easy way to select an audience. This component made the whole flow of creating a
+                    campaign focused on orchestrating the campaign's content without switching the focus to the audience
+                    building. We separated the building and exploration of an audience that now mainly lives on the
+                    Audiences page.</p>
+                <img class="audiences__image --margin-top-xs"
+                    src="../app/images/pages/projects/audiences-e/select.png" alt="">
             </div>
 
             <div class="project__section">
-                <h4>The Challenge</h4>
-                <p>A centralized user profile is the foundation of a healthy customer engagement strategy, yet, it is
-                    not fully actionable on its own. Many marketing teams have turned to audience management solutions
-                    to leverage in their marketing programs.</p>
+                <h2>It doesn't end there</h2>
+                <p>Introducing Audiences was the first step to creating a space that will help us innovate and introduce
+                    more features to help our users' marketing strategies.</p>
             </div>
-
             <div class="project__section">
-                <h4>The Solution</h4>
-                <p>A tool that helps marketers to build, manage, explore and activate customer data in the form of
-                    audiences. Supported
-                    with actionable insights to help create more meaningful engagements.</p>
+                <h2>Reflection</h2>
+                <p>Looking in retrospect, all these functionalities mentioned above seem obvious and natural, yet we
+                    didn't get it right right away. This is the fruit of endless iterations, feedback loops, and above
+                    all, a tight collaboration of a product team (PD,PM,FE,BE,QA) whose main goal was to achieve an
+                    excellent user experience. </p>
             </div>
-            <div class="project__section ">
-                <h1 class="--margin-bottom-s">Audiences in Leanplum is divided into three major surfaces</h1>
-
+            <div class="project__section">
+                <h2>Gloassary</h2>
                 <div class="list__item">
                     <div class="list__cue"></div>
-                    <p> <span class=" list__title">Audience Dashboard</span> — View, manage and create audiences.</p>
-
+                    <p>QA'ing (Quality Assurance) is ensuring that the product behaves as expected.</p>
                 </div>
-                <img class="audiences__image --margin-top-xs --margin-bottom-l "
-                    src="../app/images/pages/projects/audiences-image-2.png" alt="">
-
                 <div class="list__item">
                     <div class="list__cue"></div>
-                    <p> <span class=" list__title">Audience Details</span> — Build, edit, or view an audience
-                        with its insights. The purpose of this layer is to give marketing teams the confidence they need
-                        to engage the most precise audience.<a class="body__link" target="_blank"
-                            href="../humanly/building-a-builder.html"> In this article, we deep dive into the creation
-                            of the Builder—the main product component of the Audience Details</a>.
-                    </p>
-
-                </div>
-                <img class="audiences__image --margin-top-xs --margin-bottom-l "
-                    src="../app/images/pages/projects/audiences-image-1.png" alt="">
-
-                <div class="list__item">
-                    <div class="list__cue"></div>
-                    <p> <span class=" list__title">Users in Audience</span> — View the users available in an audience.
-                        The user profile gives a centralized view of each user. It shows user settings and preferences.
+                    <p>FullStory is a product that creates pixel-perfect renditions of user journeys to
+                        find and eliminate frustration and provide the best user experience.
                     </p>
                 </div>
-                <img class="audiences__image --margin-top-xs" src="../app/images/pages/projects/audiences-image-3.png"
-                    alt="">
-            </div>
-
-
-            <div class="project__section ">
-                <h4>learnings</h4>
-                <p>Since we launched Audiences, it's been great to see our users use it in many different ways and
-                    leverage it in their marketing programs. We are continually trying to understand better how to
-                    improve each product component to offer a better, seamless experience.</p>
             </div>
         </div>
-
-
-
         <div class="one__elements --animation-none">
                 <i></i>
                 <i></i>
