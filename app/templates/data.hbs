@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Primary Meta Tags -->
+    <title>Data Management - Projects - Mo Khatib</title>
+    <meta name="title" content="Data Management - Projects - Mo Khatib">
+    <meta name="description"
+        content="Data Management is the process of sourcing, analyzing, and managing the available data in Leanplum for our customers to leverage in their business and marketing strategies.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Data Management - Projects - Mo Khatib">
+    <meta property="og:description"
+        content="Data Management is the process of sourcing, analyzing, and managing the available data in Leanplum for our customers to leverage in their business and marketing strategies.">
+    <meta property="og:image" content="http://khatib.work/app/images/pages/covers/data_1024x512.png">
+    <meta property="og:url" content="http://khatib.work/data.html">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Data Management - Projects - Mo Khatib">
+    <meta property="twitter:description"
+        content="Data Management is the process of sourcing, analyzing, and managing the available data in Leanplum for our customers to leverage in their business and marketing strategies.">
+    <meta property="twitter:image" content="http://khatib.work/app/images/pages/covers/data_1024x512.png">
+    <meta property="twitter:url" content="http://khatib.work/data.html">
+
+    {{> meta}}
+    <link rel="stylesheet" href="dist/css/style.min.css">
+</head>
+
+<body id="--project-theme-data">
+
+    <section class="section__one">
+        <div class="one__container">
+            {{!-- Top Actions --}}
+            <div class="project__section --margin-top-none --position-sticky --index-top">
+                <div class="top__options">
+                    {{> back-button__project}}
+                    {{> toggle-switch}}
+                </div>
+            </div>
+            {{!-- Header --}}
+            <div class="project__section">
+                <h4>Data Management</h4>
+                <h1>Data Management is the process of sourcing, analyzing, and managing the available data in <span
+                        class="color__primary">Leanplum</span> for our customers to leverage in their business and
+                    marketing strategies.</h1>
+            </div>
+            {{!-- Overview --}}
+            <div class="project__section">
+                <h2>Overview</h2>
+                <p>Leanplum is a leading multi-channel customer engagement platform that helps forward-looking brands
+                    and marketing teams meet their customers' real-time needs.</p>
+
+                <p>Data Management in Leanplum is the process of sourcing, analyzing, and managing the available data to
+                    leverage it in marketing activities.</p>
+
+                <p>There are mainly two types of data coming to Leanplum:
+                <ul>
+                    <li>User attributes are the user's information, for example, users who speak German.</li>
+                    <li>Events are the actions taken and behaviors of a user, for example, users who watched Dune last
+                        month.</li>
+                </ul>
+                </p>
+
+                <p>Events and User Attributes can be used in various use cases in the product, mainly:
+                <ul>
+                    <li>Segmentation, for example, segment users who watched Dune last month.</li>
+                    <li>Engagement Triggering, for instance, show the Dune 2 banner when a user finishes watching Dune
+                        1.</li>
+                    <li>Analytics and Reporting, for example, view a breakdown by country for users who watched Dune in the previous
+                        month.</li>
+                </ul>
+                </p>
+                <p>Data in Leanplum can be imported and exported from and to various sources, mainly SDK, API, CSV, and
+                    technical partners.</p>
+                <img class="audiences__image --margin-top-xs"
+                    src="../app/images/pages/projects/dataimg/diagram1-data.png" alt="">
+                <p>Our main objective was to build an industry-leading Data Management to help our customers manage and
+                    turn their data into actionable business intelligence for their business and marketing strategy.</p>
+                <p>I led the Data Management's product design, working alongside a cross-functional team from product
+                    management and engineering. In addition, I participated in the product strategy and vision.</p>
+
+            </div>
+            {{!-- Research --}}
+            <div class="project__section">
+                <h2>Research</h2>
+                <p>The product only offered an Events page that listed all the events available with no metadata or
+                    controls whatsoever, making it hard for our users to understand or manage the data available.</p>
+                <p>In addition, most of the processes to get data in or out of Leanplum needed a developer's assistance,
+                    making this time-draining and more expensive for our customers. An example would be importing data
+                    via CSV (comma-separated values) files—this was only possible through the API (application
+                    programming interface), and non-technical users had to rely on developers, which made this process
+                    cumbersome.</p>
+                <p>There was no suitable space to import or export data to or from our technical partners. The
+                    information was only available in the documentation, and most of the process was done only through
+                    the API, which replicates the same problem mentioned for data through the CSV.</p>
+                <p>Our support team received tons of tickets from our customers asking how to accomplish some uses cases
+                    since it wasn't straightforward in the interface.</p>
+            </div>
+            {{!-- Insights --}}
+            <div class="project__section ">
+                <h2>Insights</h2>
+                <p>We had to introduce a new space in the product that is the heart of data coming in and out of
+                    Leanplum and make sure it will be the one source of truth that our users trust to discover and
+                    manage their data.</p>
+                <p>We needed to eliminate technical assistance and empower users to integrate and control data directly
+                    from the product without reading the documentation or seeking technical resources.</p>
+            </div>
+            {{!-- Design Approach --}}
+            <div class="project__section">
+                <h2>Design Approach</h2>
+                <h4>Centralization</h4>
+                <p>One source of truth to discover and manage all data integrated in and out of Leanplum.
+                </p>
+                <br>
+                <h4>Democratization </h4>
+                <p>Empower our users to take action on their data directly from the product without the need for
+                    technical resource.</p>
+                <br>
+                <h4>Meanigful Insights</h4>
+                <p>Give meaningful insights about this data leveraged in Leanplum, so we help make informative decisions when managing it.</p>
+                <br>
+            </div>
+            {{!-- Feedback --}}
+            <div class="project__section">
+                <h2>Feedback and Iteration</h2>
+                <h4>User Interviews</h4>
+                <p>Before writing a line of code, we went back to our users. We started validating the solutions we
+                    created with them to understand how to improve their workflow and experience. </p>
+                <br>
+                <h4>Design Critiques</h4>
+                <p>We had almost weekly check-ins with the team and shared with them what we have as ideas and
+                    prototypes and making sure we're all on the same page. We aligned on whether what we have is
+                    feasible and can be implemented with expected time manners.</p>
+                <br>
+            </div>
+            {{!-- Design --}}
+            <div class="project__section">
+                <h2>Design</h2>
+                <h1>We introduced a new top item in the product navigation—<span class="data-color">Data Control</span>,
+                    and gradually we introduced four different products that democratize data from various aspects.</h1>
+                <br>
+                <h4>Events</h4>
+                <p>This was the only page that already existed in the product, yet we only showed a list of all the
+                    events available in Leanplum, which didn’t help our customers. We wanted to show more metadata for
+                    the events available in Leanplum and add more control on top of them.</p>
+                <img class="audiences__image --margin-top-xs  --margin-bottom-s"
+                    src="../app/images/pages/projects/dataimg/diagram2-events.png" alt="">
+                <p> <span class="data-color">Approach 01 (Consistent Pattern)</span>—We started with a widely used
+                    pattern in the product, such as in
+                    Audiences. For instance, we
+                    have a dashboard that shows all audiences available, and in one-level deeper, we have the
+                    audience details, which offer more information for a specific audience selected.
+                    Adapting this pattern for events meant having a dashboard that shows all the events and then
+                    one-level deeper to view and edit a specific selected event.
+
+                    This pattern will encourage
+                    users to save changes per event. However, technical constraints and having the save job needing
+                    more time to execute, which will block the events page, made this pattern unusable. We had to take
+                    a different approach that encourages our users to make batch changes and keep in mind that the
+                    save will block the page and take some time to execute.</p>
+                <img class="audiences__image --margin-top-xs  --margin-bottom-s"
+                    src="../app/images/pages/projects/dataimg/flow1.png" alt="">
+                <p> <span class="data-color">Approach 02 (Single-page solution)</span>—We created a single-page solution that makes switching between
+                    events much faster and encourages
+                    users to make multiple changes before saving.</p>
+                <img class="audiences__image --margin-top-xs  --margin-bottom-s"
+                    src="../app/images/pages/projects/dataimg/flow2.png" alt="">
+                <p>The main product component is a table that
+                    shows all the events with their information. A resizable sidebar is expanded on select that
+                    shows all the controls and metadata available for an event. Also, we guided our users explicitly
+                    to edit multiple events if needed before saving the page.</p>
+                <img class="audiences__image --margin-top-xs  --margin-bottom-s"
+                    src="../app/images/pages/projects/dataimg/screen-events.png" alt="">
+                <br>
+
+                <h4>Attributes</h4>
+                <p>Considering that we had the same use case as in Events and considering we viewed our users using it
+                    and leveraging from it, it was straightforward to apply this pattern on the Attributes page.
+                </p>
+                <img class="audiences__image --margin-top-xs"
+                    src="../app/images/pages/projects/dataimg/diagram3-attributes.png" alt="">
+                <img class="audiences__image --margin-top-xs  --margin-bottom-s"
+                    src="../app/images/pages/projects/dataimg/screen-attributes.png" alt="">
+
+                <br>
+
+                <h4>Partners</h4>
+                <p>Technical partners offer our customers to import or export data in and from Leanplum to or from other
+                    vendors. Many of these partners were already available, yet setting these integrations directly from
+                    the dashboard wasn't available.
+                </p>
+                <p>We introduced a new Partners page showing all the available partners, improving these integrations'
+                    discoverability. In addition, we added a details page for each partner where our users can set up
+                    specific partners directly from the product.</p>
+                <img class="audiences__image --margin-top-xs"
+                    src="../app/images/pages/projects/dataimg/diagram4-partners.png" alt="">
+                <img class="audiences__image --margin-top-xs"
+                    src="../app/images/pages/projects/dataimg/screen-partners1.png" alt="">
+                <img class="audiences__image --margin-top-xs  --margin-bottom-s"
+                    src="../app/images/pages/projects/dataimg/screen-partners2.png" alt="">
+                <br>
+                <h4>Upload CSV</h4>
+                <p>We added an easy-to-use drag and drop experience to upload user data via a CSV file. Also, we
+                    integrated validations to indicate any problems in the file or its format before uploading. In
+                    addition, we added a section to show uploaded files with their suitable metadata to improve
+                    visibility between team members.</p>
+                <img class="audiences__image  --margin-top-xs"
+                    src="../app/images/pages/projects/dataimg/diagram5-csv.png" alt="">
+                <img class="audiences__image --margin-top-xs"
+                    src="../app/images/pages/projects/dataimg/screen-csv.png" alt="">
+            </div>
+            {{!-- What's next --}}
+            <div class="project__section">
+                <h2>It doesn't end there</h2>
+                <p>We initiated the space in most of these products and mainly added the fundamentals. Yet, we are
+                    continuously learning from our customers on their need for more controls and metadata that improve
+                    their experience and help leverage more from their data.</p>
+            </div>
+            {{!-- Reflection --}}
+            <div class="project__section">
+                <h2>Reflection</h2>
+                <p>Looking in retrospect, all these functionalities mentioned above seem obvious and natural, yet we
+                    didn't get it right right away. This is the fruit of endless iterations, feedback loops, and above
+                    all, a tight collaboration of a product team (PD,PM,FE,BE,QA) whose main goal was to achieve an
+                    excellent user experience. </p>
+            </div>
+        </div>
+        {{> one__elements}}
+    </section>
+    <script src="../dist/js/toggle-modes.js"></script>
+    <script src="../dist/js/main.min.js"></script>
+</body>
+
+</html>

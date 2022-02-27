@@ -30,14 +30,6 @@ a {
     }
 }
 
-li,
-ul {
-    font-size: 1rem;
-    list-style: none;
-    color: $light-color;
-    line-height: 200%;
-}
-
 p {
     font-size: 1.125rem;
     line-height: 2rem;
@@ -234,7 +226,19 @@ video {
     &:hover {
         color: $primary-color;
     }
+
+
 }
+
+.audiences-color {
+    color: $audiences-theme-color !important;
+}
+
+.data-color {
+    color: $data-theme-color;
+}
+
+
 
 .project__back-btn {
     position: relative;
@@ -335,17 +339,6 @@ video {
     :last-child {
         border-right: none;
     }
-}
-
-// List Styles
-.list__cue {
-    background: rgba($primary-color, $alpha: 0.12);
-
-    svg {
-        fill: $primary-color;
-    }
-
-    @extend %transition-3
 }
 
 //Media

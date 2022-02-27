@@ -13,7 +13,8 @@ $rotation-value in (eve, $eve-theme-color, 24rem, 48deg),
 (dribbble, $dribbble-theme-color),
 (github, $linkedin-theme-color),
 (about, $about-theme-color, 50rem, 90deg),
-(audiences, $audiences-theme-color, 24rem, 160deg) {
+(audiences, $audiences-theme-color, 24rem, 160deg),
+(data, $data-theme-color, 16rem, -120deg) {
 
     .--project-theme-#{$theme-name},
     #--project-theme-#{$theme-name} {
@@ -139,6 +140,11 @@ $rotation-value in (eve, $eve-theme-color, 24rem, 48deg),
             }
         }
 
+        li::before {
+            background: rgba($color: $color-value, $alpha: 0.12);
+
+        }
+
         .color__primary {
             color: $color-value;
         }
@@ -236,5 +242,9 @@ body.light-mode {
         &:hover {
             color: $primary-color;
         }
+    }
+
+    .data-color {
+        color: $data-theme-color;
     }
 }

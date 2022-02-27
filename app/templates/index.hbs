@@ -43,7 +43,8 @@
                 <div class="--margin-bottom-l">
                     <h1>
                         i'm mo — a product designer currently building the <a class="header-link"
-                            href="/audiences.html">audience</a> and data management surfaces at
+                            href="/audiences.html">audience</a> and <a class="header-link data-color"
+                            href="/data.html">data management</a> surfaces at
                         Leanplum.
                     </h1>
                     <div class="section__bio --margin-top-s">
@@ -103,6 +104,8 @@
                         <div></div>
                         {{!-- <a href="/projects.html">see all</a> --}}
                     </div>
+
+                    {{!-- Audiences --}}
                     <a href="/audiences.html" class="humanly__card js-audiences">
                         <h1>Audiences</h1>
                         <h4 class="post__date">Product Design</h4>
@@ -112,7 +115,19 @@
                         <img class="home__image audiences__image --margin-top-xs"
                             src="../app/images/pages/projects/details-cover2.png" alt="">
                     </a>
-
+                    {{!-- Data Management --}}
+                    <a href="/data.html" class="humanly__card js-data">
+                        <h1 class="flex">Data Management <div class="humanly__badge">
+                                <h4>NEW</h4>
+                            </div>
+                            <h4 class="post__date">Product Design</h4>
+                            <p>The process of sourcing, analyzing, and managing the available data in leanplum for our
+                                customers to leverage in their business and marketing strategies.
+                            </p>
+                            <img class="home__image audiences__image --margin-top-xs"
+                                src="../app/images/pages/projects/dataimg/screen-events.png" alt="">
+                    </a>
+                    {{!-- Flow-e --}}
                     <a href="https://youtu.be/DBCNxzDLf_g" target="_blank" class="humanly__card js-flow">
                         <h1 class="flex">Flow-e {{> tab-icon}}</h1>
                         <h4 class="post__date">Product Design</h4>
@@ -121,7 +136,7 @@
                         <img class="home__image audiences__image --margin-top-xs"
                             src="../app/images/pages/projects/flow-e-image-1.png" alt="">
                     </a>
-
+                    {{!-- Eve --}}
                     <a href="https://kanbanize.github.io/eve/" target="_blank" class="humanly__card js-eve">
                         <h1 class="flex">Eve{{> tab-icon}}</h1>
 
@@ -134,9 +149,9 @@
                     </a>
 
 
-                    <div class="blocked__indication">
+                    {{!-- <div class="blocked__indication">
                         <div class="humanly__card card__disabled">
-                            <h1 class="flex">Event Management<div class="humanly__badge">
+                            <h1 class="flex">Event Management <div class="humanly__badge">
                                     <h4>WIP</h4>
                                 </div>
                                 <h4 class="post__date">Product Design</h4>
@@ -145,7 +160,7 @@
                                 <img class="home__image audiences__image --margin-top-xs"
                                     src="../app/images/pages/projects/datamng-image-1.png" alt="">
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
 
                 {{!-- Humanly --}}
