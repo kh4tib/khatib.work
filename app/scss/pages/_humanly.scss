@@ -31,7 +31,7 @@
     background-color: rgba($color: $light-color, $alpha: 0.02);
 
     .post__date {
-        margin-top: 1rem !important;
+        margin-top: .5rem !important;
     }
 
     h1 {
@@ -129,8 +129,9 @@
 
     .body__quote__description {
         font-family: $secondary-font;
-        font-size: 2rem;
-        line-height: 90%;
+        font-size: 3rem;
+        line-height: 80%;
+        letter-spacing: -2px;
         color: $primary-color;
 
         &::after,
@@ -139,7 +140,7 @@
             width: 100%;
             height: 100%;
             position: relative;
-            bottom: -2rem;
+            bottom: -1.35rem;
             right: 0;
             font-size: 5rem;
             line-height: 0rem;
@@ -152,6 +153,7 @@
     h4 {
         color: $secondary-color;
         line-height: 150%;
+        margin-top: .5rem;
 
         &::before {
             content: '';
