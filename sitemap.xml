@@ -12,66 +12,19 @@
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://khatib.work/about.html</loc>
-  <priority>1.00</priority>
-</url>
-
-<!-- Projects -->
-<url>
-  <loc>http://khatib.work/projects.html</loc>
-  <priority>1.00</priority>
-</url>
-<url>
   <loc>http://khatib.work/audiences.html</loc>
-  <priority>0.80</priority>
+  <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://khatib.work/eve.html</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://khatib.work/flow.html</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://khatib.work/sante.html</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://khatib.work/exquisite.html</loc>
-  <lastmod>2018-10-21T22:06:31+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>http://khatib.work/data.html</loc>
+  <priority>1.00</priority>
 </url>
 <url>
   <loc>http://khatib.work/framesofmind.html</loc>
-  <lastmod>2018-10-21T22:06:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-
-<!-- Humanly -->
-  <loc>http://khatib.work/humanly.html</loc>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>http://khatib.work/humanly/building-a-builder.html</loc>
-  <priority>0.80</priority>
+  <priority>1.00</priority>
 </url>
-<url>
-  <loc>http://khatib.work/humanly/why-starting-this.html</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://khatib.work/humanly/how-eve-was-born.html</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://khatib.work/humanly/twenty18-retrospective.html</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://khatib.work/humanly/love-is-blind.html</loc>
-  <priority>0.80</priority>
-</url>
-
 </urlset>
