@@ -1,14 +1,17 @@
 var gulp = require('gulp');
-// SASS Tasks
-var sass = require('gulp-sass');
-var postcss      = require('gulp-postcss');
+
+// // SASS Tasks
+var sass = require('gulp-sass')(require('sass')); 
+var postcss = require('gulp-postcss');
 var autoprefixer = require('autoprefixer');
 var rename = require("gulp-rename");
+
 // JS Tasks
 var babel = require('gulp-babel');
 var uglify = require('gulp-uglify');
 var concat = require('gulp-concat');
 var pump = require('pump');
+
 // Handlebars Tasks
 var handlebars = require('gulp-compile-handlebars');
 
@@ -24,6 +27,8 @@ gulp.task('build-sass', function(){
     }))
     .pipe(gulp.dest('dist/css'));
 });
+
+
 
 // Build JS
 gulp.task('build-js', function (cb) {
@@ -46,7 +51,7 @@ gulp.task('build-js', function (cb) {
 });
 
 // Build Handlebars
-gulp.task('build-handlebars', function () {
+gulp.task('build-handlebars', done => {
   var templateData = {
 	},
 	options = {
@@ -56,25 +61,22 @@ gulp.task('build-handlebars', function () {
 	gulp.src(['app/templates/*.hbs'])
   .pipe(handlebars(templateData,options))
   .pipe(rename({extname: ".html"}))
-  .pipe(gulp.dest(''));
+  .pipe(gulp.dest('.'));
 
    gulp.src(['app/templates/humanly/*.hbs'])
   .pipe(handlebars(templateData,options))
   .pipe(rename({extname: ".html"}))
   .pipe(gulp.dest('humanly'))
 
-
-//   gulp.src(['app/templates/projects/*.hbs'])
-//  .pipe(handlebars(templateData,options))
-//  .pipe(rename({extname: ".html"}))
-//  .pipe(gulp.dest('projects'))
+  done();
 });
-
-// Build All
-gulp.task('build', ['build-sass', 'build-js', 'build-handlebars']);
 
 // Watchers
 gulp.task('watch', function(){
   gulp.watch('app/scss/**/*.scss', ['build-sass']);
   gulp.watch('app/js/**/*.js', ['build-js']);
 });
+
+// Build All
+gulp.task('build', gulp.series('build-sass','build-js','build-handlebars'));
+
