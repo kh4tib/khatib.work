@@ -18,7 +18,7 @@ const contactHoverEffect = (item, newContent, oldContent, theme) => {
 };
 
 // contactHoverEffect(emailLink,'email','📥','--project-theme-email');
-contactHoverEffect(twitterLink,'twitter', '🐣', '--project-theme-twitter');
+// contactHoverEffect(twitterLink,'twitter', '🐣', '--project-theme-twitter');
 contactHoverEffect(instagramLink,'instagram', '🤳', '--project-theme-instagram');
 contactHoverEffect(dribbbleLink,'dribbble', '🏀','--project-theme-dribbble');
 contactHoverEffect(linkedinLink,'linkedin', '👔','--project-theme-linkedin');
