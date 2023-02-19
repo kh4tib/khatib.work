@@ -14,7 +14,8 @@ $rotation-value in (eve, $eve-theme-color, 24rem, 48deg),
 (github, $linkedin-theme-color),
 (about, $about-theme-color, 50rem, 90deg),
 (audiences, $audiences-theme-color, 24rem, 160deg),
-(data, $data-theme-color, 16rem, -120deg) {
+(data, $data-theme-color, 16rem, -120deg),
+(grab, $grab-theme-color, 20rem, -160deg) {
 
     .--project-theme-#{$theme-name},
     #--project-theme-#{$theme-name} {
@@ -246,5 +247,9 @@ body.light-mode {
 
     .data-color {
         color: $data-theme-color;
+    }
+
+    .grab-color:hover {
+        color: $grab-theme-color;
     }
 }
